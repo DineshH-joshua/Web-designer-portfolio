@@ -1,0 +1,1088 @@
+.Navbar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid #404040;
+    height: 50px;
+    margin-top: -1px;
+    margin-left: -10px;
+    width: 1390px;
+    border-radius: 0px 0px 15px 15px;
+    font-family: Poppins;
+    
+}
+.Navbar div{
+    color: black;
+    width: 100px;
+    margin: 3px;
+    padding: 1px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.home a{
+    text-decoration: none;
+   color:black;
+}
+.home:hover{
+    /* background-image: linear-gradient(#404044,#000); */
+    color: black;
+    text-decoration: underline;
+    padding: 5px;
+    border: 1px outset rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+}
+.About a{
+    text-decoration: none;
+    color: black;
+}
+.About:hover{
+    /* background-image: linear-gradient(#404044,#000); */
+    color: black;
+    text-decoration: underline;
+    padding: 7px;
+    border: 1px outset rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+}
+.project a{
+    text-decoration: none;
+    color: black;
+}
+.project:hover{
+    /* background-image: linear-gradient(#404044,#000);
+    color: black; */
+    text-decoration: underline;
+    padding: 5px;
+    border: 1px outset rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+}
+.Blog a{
+    text-decoration: none;
+    color: black;
+}
+.Blog:hover{
+    /* background-image: linear-gradient(#404044,#000); */
+    color: black;
+    text-decoration: underline;
+    padding: 5px;
+    border: 1px outset rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact:hover{
+    /* background-image: linear-gradient(#404044,#000); */
+    color: black;
+    text-decoration: underline;
+    padding: 5px;
+    border: 1px outset rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+}
+
+/* HERO SECTION */
+
+
+.heroimage{
+    position: relative;
+    margin-left: 850px;
+    margin-top: 90px;
+    z-index: -1;
+}
+.stars{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -1280px;
+    z-index: -1;
+}
+.highlight{
+    color: white;
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -3px  1px 0 #000,
+     1px  1px 0 #000;
+    font-size: 70px;
+}
+
+.underline{
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.myintro{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 50px;
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+    z-index: -1;
+    font-size: 65px;
+    text-shadow:
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #000,
+    -3px  1px 0 #ffffff,
+     1px  1px 0 #000;
+    
+}
+.whtim{
+    margin-top: -127px;
+    font-family:  "Poppins", sans-serif;
+    margin-left: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ /* SKILL BOX */
+
+.marked{
+    margin-left: 600px;
+    margin-top: 10px;
+    font-family: "Montenegrin Gothic One", serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,  
+     1px -1px 0 #000000,
+    -5px  1px 0 #000000,
+     1px  1px 0 #000000;
+     font-size: 30px;
+}
+
+.skillbox{
+    width: 250px;
+    height: 280px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    perspective: 600px;
+    
+}
+.figmaskill{
+    margin-left: 20px;
+    margin-top: 20px;
+     border: 1px solid black;
+     box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+}
+.img{
+    margin-top: 40px;
+}
+.face{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+.footer{
+    margin-left: 2px;
+    margin-top: 15px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.back{
+     margin-left: 35px;
+    margin-top: -237px;
+     border: 1px solid black;
+     box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+
+}
+.secimg{
+    margin-top: 40px;
+}
+.htmlftn{
+    margin-left: 2px;
+    margin-top: 20px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.skillbox:hover .figmaskill {
+  transform: rotateY(180deg);
+}
+
+/* SECOND CARD FLIP */
+
+.skullbox{
+    width: 250px;
+    height: 280px;
+    margin-left: 530px;
+    margin-top: -280px;
+    box-sizing: border-box;
+    perspective: 600px;
+    
+}
+.cssskill{
+    margin-left: 20px;
+    margin-top: 20px;
+     border: 1px solid black;
+      box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+}
+.trdimg{
+    margin-top: 40px;
+}
+.face{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+.thdftn{
+    margin-left: 2px;
+    margin-top: 15px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.mon{
+     margin-left: 35px;
+    margin-top: -237px;
+     border: 1px solid black;
+     box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+
+}
+.bootimg{
+    margin-top: 40px;
+}
+.bootftn{
+    margin-left: 2px;
+    margin-top: 20px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.skullbox:hover .cssskill {
+  transform: rotateY(180deg);
+}
+
+
+/* THIRD CARD FLIP */
+.lastbox{
+    width: 250px;
+    height: 280px;
+    margin-left: 950px;
+    margin-top: -280px;
+    box-sizing: border-box;
+    perspective: 600px;
+    
+}
+.jsskill{
+    margin-left: 20px;
+    margin-top: 20px;
+     border: 1px solid black;
+      box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+}
+.frtimg{
+    margin-top: 40px;
+}
+.face{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+.frtftn{
+    margin-left: 2px;
+    margin-top: 15px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.tue{
+     margin-left: 35px;
+    margin-top: -237px;
+     border: 1px solid black;
+     box-shadow: 1px 1px  6px black;
+     border-radius: 15px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+
+}
+.photoimg{
+    margin-top: 40px;
+}
+.photoftn{
+    margin-left: 2px;
+    margin-top: 20px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.lastbox:hover .jsskill {
+  transform: rotateY(180deg);
+}
+
+    /* ABOUT ME PAGE */
+
+    .describeme{
+   position: relative;
+    padding: 1px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 1360px;
+    height: 600px;
+    margin-top: 100px;
+     
+}
+
+.selfmade{
+    margin-top: 120px;
+    margin-left: 830px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 38px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -3px  1px 0 #ffffff,
+     1px  1px 0 #fffdfd;
+     text-decoration: underline;
+     
+}
+.myimg{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+}
+.experience{
+    color: white;
+    margin-top: -40px;
+    text-align: center;
+    margin-left: 600px;
+    font-family: "Poppins", sans-serif;
+    text-align: start;
+    font-size: 22px;
+    
+}
+.download{
+    margin-left: 860px;
+    width: 120px;
+    border: 2px outset black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 50px;
+    padding: 3px;
+    
+}
+.download a{
+    text-decoration: none;
+    color: black;
+}
+.download:hover a{
+    background-color: black;
+    color: white;
+}
+.download:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Experience Page */
+
+
+.titlee{
+    margin-top: 50px;
+    margin-left: 560px;
+    font-family: "Montenegrin Gothic One", serif;
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,  
+     1px -1px 0 #000000,
+    -3px  1px 0 #000000,
+     1px  1px 0 #000000;
+     text-decoration: underline;
+}
+.Sodexo{
+    width: 1200px;
+    border: 1px outset black;
+    margin-left: 40px;
+}
+.breif{
+    width: 40px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+.company{
+    margin-left: 100px;
+    margin-top: -31px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.years{
+    margin-left: 1000px;
+    margin-top: -50px;
+    font-family:"Poppins", sans-serif ;
+    
+}
+.description{
+    margin-left: 30px;
+    text-align: start;
+}
+
+  /* CARD 2 */
+.saveetha{
+    width: 1200px;
+    border: 1px outset black;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.case{
+    width: 40px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+.nextcmp{
+    margin-left: 100px;
+    margin-top: -31px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nxtyr{
+    margin-left: 1000px;
+    margin-top: -50px;
+    font-family:"Poppins", sans-serif ;
+}
+.dest{
+    margin-left: 30px;
+    text-align: start;
+}
+.Sodexo:hover{
+    background-color: black;
+    color: white;
+}
+
+.saveetha:hover{
+    background-color: black;
+    color: white;   
+}
+
+/* PROJECT */
+
+.myproj{
+    position: relative;
+    margin-top: 60px;
+    background-color: black;
+    height: 1000px;
+    width: 1360px;
+  
+}
+.protitle{
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 30px;
+    font-family: "Montenegrin Gothic One", serif;
+    font-size: 33px;
+    text-decoration: underline;
+    text-shadow:
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #000000,
+    -3px  1px 0 #ffffff,
+     1px  1px 0 #000000;
+}
+.nexora{
+    margin-left: 600px;
+    margin-top: -320px;
+    color: white;
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.p1{
+    width: 450px;
+    height: 400px;
+    border: 2px outset white;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.p1:hover{
+    border: 7px inset white;
+}
+.dept{
+    color: white;
+    text-align: center;
+    text-align: start;
+    margin-top: -9px;
+    margin-left: 600px;
+}
+.mypro{
+    margin-top: 20px;
+    margin-left: 800px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.mypro a{
+    text-decoration: none;
+    color: black;
+}
+.mypro:hover a{
+    background-color: black;
+    color: white;
+}
+.mypro:hover{
+    background-color: black;
+    color: white;
+}
+
+/* PROJECT 2 */
+.pro2{
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 150px;
+    border: 2px outset white;
+    border-radius: 15px;
+}
+.pro2:hover{
+    border: 7px inset white;
+}
+.cityzen{
+    margin-top: -340px;
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pr2dpn{
+    margin-left: 30px;
+    margin-right: 600px;
+    color: white;
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+    text-align: start;
+}
+.probtn{
+    background-color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    font-family:"Poppins", sans-serif;
+}
+.probtn a{
+    text-decoration: none;
+    color: black;
+}
+.probtn:hover a{
+    background-color: black;
+    color: white;
+}
+.probtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* EXTRA */
+
+.extle{
+    margin-top: 40px;
+    margin-left: 600px;
+    font-family:"Montenegrin Gothic One", serif;
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,  
+     1px -1px 0 #000000,
+    -3px  1px 0 #000000,
+     1px  1px 0 #000000;
+     text-decoration: underline;
+}
+
+.youbox{
+    position: relative;
+    width: 280px;
+    height: 200px;
+    margin-left: 300px;
+    box-shadow: 1px 1px 7px black;
+    border-radius: 15px;
+}
+.youtube{
+    width: 300px;
+    position: absolute;
+    margin-top: -20px;
+}
+.youbox:hover{
+    box-shadow: 1px 1px 11px red;
+    
+}
+.youtext{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 37px;
+    font-weight: bold;
+}
+.youtext:hover{
+    font-size: 21px;
+}
+.twinkle{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -10px;
+}
+
+.linked{
+    position: relative;
+    width: 280px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: -198px; 
+    box-shadow: 1px 1px 7px black;
+    border-radius: 15px;
+}
+.In{
+    width: 150px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.linked:hover{
+    box-shadow: 1px 1px 11px blue;
+}
+
+.linkedtext{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.linkedtext:hover{
+    font-size: 21px;
+}
+
+/* CONTACT US */
+
+.contactme{
+    height: 500px;
+    position: relative;
+    border: 1px dashed black ;
+    margin-top: 50px;
+    margin-right: -10px;
+    background-color: black;
+}
+.textcontainer{
+    margin-top: -70px;
+}
+.contactthing{
+    font-family:"Sora", sans-serif;
+    margin-left: 700px;
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: start;
+    font-weight: bold;
+    color: white;
+}
+.contmark{
+    color: white;
+  text-shadow:
+    1px -1px 0 #000,  
+     2px 1px 0 #ffffff,
+    1px  -2px 0 #000,
+     1px  1px 0 #ffffff;
+     text-decoration: underline;
+}
+.under{
+    margin-left: 700px;
+    text-align: center;
+    text-align: start;
+    color: white;
+    font-weight: lighter;
+}
+.mymail{
+    margin-left: 700px;
+    font-family:"Sora", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.formbox{
+    margin-top: -300px;
+    margin-left: 100px;
+    width: 400px;
+}
+.git{
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-family:"Poppins", sans-serif ;
+    width: 200px;
+}
+.git:hover{
+    background-color: black;
+    color: white;
+}
+input[type=text]{
+    width: 400px;
+    padding: 6px;
+    border-radius: 5px;
+    pointer-events: auto;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+input[type=email]{
+    width: 400px;
+    padding: 6px;
+    border-radius: 5px;
+    pointer-events: auto;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+     
+}
+input:focus {
+  outline: 2px solid #ffffff;
+  background-color: rgb(235, 235, 235);
+}
+
+.textarea{
+    font-family:"Poppins", sans-serif;
+}
+.instagram :hover{
+    border: 1px solid white;
+}
+
+/* FOOTER */
+.footerlast{
+    height: 50px;
+    font-family:"Montenegrin Gothic One", serif;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    text-align: center;
+    text-align: start;
+    color: white;
+}
+
+
+
+/* =========================================================
+   RESPONSIVE / MOBILE VIEW
+   Load this file AFTER color.css. It only adds new rules
+   inside media queries, so the desktop design is unchanged.
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+  html, body { max-width: 100%; overflow-x: hidden; }
+  section { scroll-margin-top: 60px; }
+
+  /* ---------- NAVBAR ---------- */
+  .Navbar {
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+  }
+  .Navbar div {
+    width: auto;
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 3px 1px;
+    font-size: 14px;
+  }
+
+  /* ---------- HERO ---------- */
+  #home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 15px 0;
+  }
+  .myintro {
+    position: static;
+    order: 0;
+    margin: 0;
+    font-size: 38px;
+    z-index: auto;
+  }
+  .highlight { font-size: 46px; }
+  .underline {
+    order: 1;
+    margin: 0;
+    width: 60%;
+    max-width: 280px;
+    height: auto;
+    margin-top: -80px;
+  }
+  .whtim {
+    order: 2;
+    margin: 15px 0 0;
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
+    margin-top: -30px;
+  }
+  .heroimage {
+    order: 3;
+    position: static;
+    margin: 20px auto 0;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    z-index: auto;
+  }
+  .stars {
+    position: absolute;
+    top: 58px;
+    right: 20px;
+    margin: 0;
+    width: 30px;
+    z-index: auto;
+  }
+  marquee img { width: 80%; }
+
+  /* ---------- SKILLS ---------- */
+  .marked {
+    margin: 10px 0 20px;
+    text-align: center;
+  }
+  .skillbox,
+  .skullbox,
+  .lastbox {
+    margin: 0 0 50px calc(50% - 145px);
+  }
+
+  /* ---------- ABOUT ME ---------- */
+  .describeme {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 20px 20px 30px;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .myimg {
+    position: static;
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0 0;
+  }
+  .selfmade {
+    margin: 20px 0 10px;
+    font-size: 30px;
+  }
+  .experience {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    text-align: start;
+  }
+  .download { margin: 20px 0 0; }
+
+  /* ---------- EXPERIENCE ---------- */
+  .titlee {
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+  .Sodexo,
+  .saveetha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    margin: 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .saveetha { margin-top: 30px; }
+  .breif,
+  .case {
+    flex: 0 0 auto;
+    margin: 0 10px 0 0;
+  }
+  .company,
+  .nextcmp {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+  .years,
+  .nxtyr {
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+  .description,
+  .dest {
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+
+  /* ---------- PROJECTS ---------- */
+  .myproj {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 20px 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .protitle {
+    position: static;
+    margin: 10px 0;
+    font-size: 28px;
+  }
+  .p1,
+  .pro2 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0 0;
+  }
+  .pro2 { margin-top: 35px; }
+  .nexora,
+  .cityzen {
+    width: 100%;
+    margin: 15px 0 0;
+    font-size: 20px;
+  }
+  .dept,
+  .pr2dpn {
+    width: 100%;
+    margin: 8px 0 0;
+    font-size: 14px;
+    text-align: start;
+  }
+  .mypro { margin: 20px 0 0; }
+  .probtn { margin: 20px 0 0; }
+
+  /* ---------- EXTRAS ---------- */
+  .extle {
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+  .youbox,
+  .linked {
+    margin: 0 auto 25px;
+    max-width: 90%;
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contactme {
+    height: auto;
+    margin: 50px 0 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textcontainer { margin: 0; width: 100%; }
+  .contactthing {
+    margin: 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .under {
+    margin: 0 0 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .contactthing br,
+  .under br { display: none; }
+  .mymail {
+    margin: 0 0 30px;
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+  .formbox {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=email],
+  .formbox textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .instagram {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+/* ---------- SMALL PHONES ---------- */
+@media (max-width: 480px) {
+  .Navbar div { font-size: 12px; }
+  .myintro { font-size: 30px; }
+  .highlight { font-size: 38px; }
+  .whtim { font-size: 14px; }
+  .selfmade,
+  .protitle { font-size: 26px; }
+  .experience { font-size: 15px; }
+  .contactthing { font-size: 26px; }
+  .company,
+  .nextcmp { font-size: 16px; }
+}
+    
+
+
